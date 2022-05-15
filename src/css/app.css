@@ -17,6 +17,7 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
 }
 
 img {
@@ -55,6 +56,10 @@ section {
 
 .text-center {
     text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 /*
@@ -158,7 +163,7 @@ section {
     }
     
     h3 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .website-nav a {
@@ -194,10 +199,10 @@ section {
     }
 
     .website-nav a {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .footer-content-container a {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 }

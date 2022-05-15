@@ -50,6 +50,31 @@
 }
 
 /*
+    ABOUT US STYLES
+*/
+
+.aboutus-container {
+    background-image: linear-gradient(to bottom, transparent 50%, #2e84bf 50%, #2e84bf 100%), url('./../img/aboutus.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%, 60rem;
+    height: 40rem;
+}
+
+.aboutus-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.aboutus-content-container {
+    grid-row: 2 / 3;
+    color: #FFFFFF;
+    padding: 5rem 2rem;
+}
+
+
+/*
     MEDIA QUERIES	
 */
 
@@ -68,6 +93,23 @@
     .category img {
         height: 15rem;
     }
+
+    .aboutus-container {
+        background-image: linear-gradient(to right, transparent 50%, #2e84bf 50%, #2e84bf 100%), url('./../img/aboutus.png');
+        background-size: 100%, 160rem;
+        height: 35rem;
+    }
+
+    .aboutus-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: none;
+    }
+    
+    .aboutus-content-container {
+        grid-column: 2 / 3;
+        color: #FFFFFF;
+        padding: 5rem;
+    }    
 }
 
 /*  Large Devices (Desktops, 992px and up)  */
@@ -88,6 +130,15 @@
     .category p {
         font-size: 1.75;
     }
+
+    .aboutus-container {
+        background-size: 100%, 180rem;
+        height: 40rem;
+    }
+
+    .aboutus-content-container p {
+        font-size: 1.6rem;
+    }    
 }
 
 /*  XX-Large Devices (Larger Desktops, 1800px and up)  */
@@ -103,6 +154,14 @@
     .category p {
         font-size: 1.95rem;
     }
+
+    .aboutus-container {
+        background-size: 100%, 225rem;
+    }
+
+    .aboutus-content-container p {
+        font-size: 1.8rem;
+    }    
 }
 
 /*  XXX-Large Devices (Even Larger Desktops, 2000px and up)  */
@@ -117,6 +176,11 @@
 
     .category p {
         font-size: 2.5rem;
+    }
+
+    .aboutus-container {
+        background-size: 100%, 275rem;
+        height: 50rem;
     }
 }
 
