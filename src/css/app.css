@@ -1,0 +1,203 @@
+/*
+    GENERAL CSS CONFIGURATIONS
+*/
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/*
+    UTILITIES
+*/
+
+.text-center {
+    text-align: center;
+}
+
+/*
+    HEADER STYLES
+*/
+
+.website-title {
+    text-align: center;
+    color: #2c3e50;
+    padding: 0.5rem 0;
+}
+
+.website-title span {
+    color: #2e84bf;
+}
+
+/*
+    NAV STYLES
+*/
+
+.nav-container {
+    border-top: 0.1rem solid #eaecef;
+    border-bottom: 0.1rem solid #eaecef;
+    padding: 1rem 0;
+}
+
+.website-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.website-nav a {
+    font-size: 1.75rem;
+    margin: 0.5rem 0;
+    transition: color 0.3s ease-out;
+}
+
+.website-nav a:hover {
+    color: #c2c2c2;
+}
+
+/*
+    MAIN CONTENT STYLES
+*/
+
+.page-title {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/*
+    FOOTER STYLES
+*/
+
+.footer-container {
+    border-top: 0.1rem solid #eaecef;
+    padding: 2rem 0;
+}
+
+.footer-content-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-content-container a {
+    display: block;
+    font-size: 1.35rem;
+    margin: 0.5rem 0;
+    transition: color 0.3s ease-out;
+}
+
+.footer-content-container a:hover {
+    color: #c2c2c2;
+}
+
+/*
+    MEDIA QUERIES
+*/
+
+/*  Medium Devices (Tablets, 768px and up)  */
+@media (min-width: 768px) {
+    .website-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/*  Large Devices (Desktops, 992px and up)  */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+
+    .website-nav a {
+        font-size: 1.75rem;
+    }
+
+    .footer-content-container a {
+        font-size: 1.55rem;
+    }
+}
+
+/*  X-Large Devices (Large Desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+    
+}
+
+/*  XX-Large Devices (Larger Desktops, 1800px and up)  */
+@media (min-width: 1800px) {
+}
+
+/*  XXX-Large Devices (Even Larger Desktops, 2000px and up)  */
+@media (min-width: 2000px) {
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+    }
+
+    .website-nav a {
+        font-size: 2rem;
+    }
+
+    .footer-content-container a {
+        font-size: 1.75rem;
+    }
+}
