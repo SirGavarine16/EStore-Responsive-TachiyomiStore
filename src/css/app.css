@@ -46,8 +46,28 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 1.15rem;
+}
+
 section {
     margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #2977ac;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.45rem;
+    transition: background-color 0.3s ease-out;
+}
+
+.btn-primary:hover {
+    background-color: #3992cf;
 }
 
 /*
@@ -177,7 +197,9 @@ section {
 
 /*  X-Large Devices (Large Desktops, 1200px and up)  */
 @media (min-width: 1200px) {
-    
+    section {
+        margin-bottom: 5rem;
+    }
 }
 
 /*  XX-Large Devices (Larger Desktops, 1800px and up)  */
@@ -187,7 +209,7 @@ section {
 /*  XXX-Large Devices (Even Larger Desktops, 2000px and up)  */
 @media (min-width: 2000px) {
     h1 {
-        font-size: 5rem;
+        font-size: 6rem;
     }
     
     h2 {
@@ -195,7 +217,7 @@ section {
     }
     
     h3 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .website-nav a {
@@ -203,6 +225,10 @@ section {
     }
 
     .footer-content-container a {
-        font-size: 2rem;
+        font-size: 2.25rem;
+    }
+
+    .btn-primary {
+        font-size: 2.5rem;
     }
 }
