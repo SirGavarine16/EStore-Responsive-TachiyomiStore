@@ -3,7 +3,7 @@
 */
 
 .aboutus-container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 2rem auto;
 }
 
@@ -12,11 +12,9 @@
     height: 30rem;
     object-fit: cover;
     object-position: center right;
-    border-radius: 1rem;
 }
 
 .aboutus-container p {
-    font-size: 1.5rem;
     text-align: justify;
     padding: 1rem 0;
 }
@@ -28,6 +26,7 @@
 /*  Medium Devices (Tablets, 768px and up)  */
 @media (min-width: 768px) {
     .aboutus-container {
+        max-width: 80%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -62,7 +61,6 @@
 
     .aboutus-container p {
         padding: 2rem;
-        font-size: 1.65rem;
     }
     
     .aboutus-container p:first-child {
@@ -78,14 +76,11 @@
 
 /*  XX-Large Devices (Larger Desktops, 1800px and up)  */
 @media (min-width: 1800px) {
-    .aboutus-info-container p {
-        font-size: 2rem;
+    .aboutus-container img {
+        object-position: center top;
     }
 }
 
 /*  XXX-Large Devices (Even Larger Desktops, 2000px and up)  */
 @media (min-width: 2000px) {
-    .aboutus-info-container p {
-        font-size: 2.75rem;
-    }
 }

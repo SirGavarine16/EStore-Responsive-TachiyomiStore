@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.25rem;
 }
 
 h2 {
@@ -38,16 +38,22 @@ h2 {
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.8rem;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 p {
-    font-size: 1.15rem;
+    margin: 0;
+}
+
+a, p {
+    font-size: 1.5rem;
 }
 
 section {
@@ -82,13 +88,16 @@ section {
     text-align: justify;
 }
 
+.fg-gray {
+    color: #c2c2c2;
+}
+
 /*
     HEADER STYLES
 */
 
 .website-title {
     text-align: center;
-    color: #2c3e50;
     padding: 0.5rem 0;
 }
 
@@ -141,7 +150,7 @@ section {
 }
 
 .footer-content-container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -150,13 +159,17 @@ section {
 
 .footer-content-container a {
     display: block;
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     margin: 0.5rem 0;
     transition: color 0.3s ease-out;
 }
 
 .footer-content-container a:hover {
     color: #c2c2c2;
+}
+
+.footer-credits-text {
+    margin-top: 2rem;
 }
 
 /*
@@ -169,6 +182,10 @@ section {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .footer-content-container {
+        max-width: 80%;
     }
 }
 
@@ -186,8 +203,12 @@ section {
         font-size: 2.5rem;
     }
 
-    .website-nav a {
+    a, p {
         font-size: 1.75rem;
+    }
+
+    .website-nav a {
+        font-size: 1.85rem;
     }
 
     .footer-content-container a {
@@ -220,8 +241,12 @@ section {
         font-size: 5rem;
     }
 
+    a, p {
+        font-size: 2rem;
+    }
+
     .website-nav a {
-        font-size: 2.5rem;
+        font-size: 2.55rem;
     }
 
     .footer-content-container a {
@@ -229,6 +254,6 @@ section {
     }
 
     .btn-primary {
-        font-size: 2.5rem;
+        font-size: 2.55rem;
     }
 }
