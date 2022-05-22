@@ -189,6 +189,10 @@ ul {
     margin-top: 2rem;
 }
 
+.footer-credits-text a {
+    text-decoration: underline;
+}
+
 /*
     MEDIA QUERIES
 */
