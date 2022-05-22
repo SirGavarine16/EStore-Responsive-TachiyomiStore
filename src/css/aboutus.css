@@ -77,8 +77,14 @@
 /*  XX-Large Devices (Larger Desktops, 1800px and up)  */
 @media (min-width: 1800px) {
     .aboutus-container img {
+        height: 40rem;
         object-position: center top;
     }
+
+    .aboutus-container p {
+        padding-right: 20rem;
+    }
+
 }
 
 /*  XXX-Large Devices (Even Larger Desktops, 2000px and up)  */
