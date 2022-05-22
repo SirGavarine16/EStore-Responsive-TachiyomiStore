@@ -1,0 +1,113 @@
+/*
+    BLOG STYLES
+*/
+
+.blog-container {
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.blog-entry {
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #eaecef;
+    margin-bottom: 1rem;
+}
+
+.blog-entry img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.blog-img-container {
+    margin-bottom: 1.5rem;
+}
+
+.blog-img-footer {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+
+.blog-img-footer span {
+    font-weight: 600;
+    color: #2e84bf;
+}
+
+.blog-text-container p {
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.aside-container {
+    max-width: 90%;
+    margin: 0.5rem auto;
+}
+
+.aside-container h3 {
+    margin-bottom: 1rem;
+}
+
+.aside-container ul {
+    list-style: disc;
+    padding: 0;
+}
+
+.aside-container a {
+    transition: color 0.3s ease-out;
+}
+
+.aside-container a:hover {
+    color: #c2c2c2;
+}
+
+.readmore-btn {
+    width: fit-content;
+    padding: 0.5rem 2rem;
+}
+
+.blog-btn-container {
+     margin: 2rem 0;
+}
+
+/*
+    MEDIA QUERIES	
+*/
+
+/*  Medium Devices (Tablets, 768px and up)  */
+@media (min-width: 768px) {
+    .blog-container {
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+
+}
+
+/*  Large Devices (Desktops, 992px and up)  */
+@media (min-width: 992px) {
+    
+}
+
+/*  X-Large Devices (Large Desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+    .blog-entry img {
+        height: 50rem;
+    }
+}
+
+/*  XX-Large Devices (Larger Desktops, 1800px and up)  */
+@media (min-width: 1800px) {
+    .blog-entry img {
+        height: 65rem;
+    }
+}
+
+/*  XXX-Large Devices (Even Larger Desktops, 2000px and up)  */
+@media (min-width: 2000px) {
+    .blog-entry img {
+        height: 100rem;
+    }
+}
