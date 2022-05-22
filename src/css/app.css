@@ -60,6 +60,11 @@ section {
     margin-bottom: 2rem;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 .btn-primary {
     background-color: #2977ac;
     border: none;

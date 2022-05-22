@@ -51,7 +51,10 @@
 
 .aside-container ul {
     list-style: disc;
-    padding: 0;
+}
+
+.aside-container li {
+    margin: 0.5rem 0;
 }
 
 .aside-container a {
