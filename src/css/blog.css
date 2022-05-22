@@ -71,6 +71,16 @@
      margin: 2rem 0;
 }
 
+.blog-entry-container {
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.blog-entry-page {
+    border: none;
+    margin-bottom: 0;
+}
+
 /*
     MEDIA QUERIES	
 */
@@ -84,6 +94,9 @@
         gap: 2rem;
     }
 
+    .blog-entry-container {
+        max-width: 60%;
+    }
 }
 
 /*  Large Devices (Desktops, 992px and up)  */
@@ -96,12 +109,20 @@
     .blog-entry img {
         height: 50rem;
     }
+
+    .blog-entry-container {
+        max-width: 50%;
+    }
 }
 
 /*  XX-Large Devices (Larger Desktops, 1800px and up)  */
 @media (min-width: 1800px) {
     .blog-entry img {
         height: 65rem;
+    }
+
+    .blog-entry-container {
+        max-width: 40%;
     }
 }
 
