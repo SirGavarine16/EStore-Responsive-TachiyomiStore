@@ -56,6 +56,10 @@ a, p {
     font-size: 1.5rem;
 }
 
+label, input, legend, textarea, select, option {
+    font-size: 1.35rem;
+}
+
 section {
     margin-bottom: 2rem;
 }
@@ -220,6 +224,10 @@ ul {
         font-size: 1.75rem;
     }
 
+    label, input, legend, textarea, select, option {
+        font-size: 1.6rem;
+    }
+
     .website-nav a {
         font-size: 1.85rem;
     }
@@ -256,6 +264,10 @@ ul {
 
     a, p {
         font-size: 2rem;
+    }
+
+    label, input, legend, textarea, select, option {
+        font-size: 1.85rem;
     }
 
     .website-nav a {
